@@ -10,11 +10,21 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
+    @IBOutlet weak var UsernameMsg: UITextField!
+    @IBOutlet weak var PasswordMsg: UITextField!
+    @IBAction func LoginBtnMsg(_ sender: UIButton) {
+        if self.UsernameMsg.text == "paraggarg66@yahoo.in" &&
+        self.PasswordMsg.text == "Challa@121"
+        {
+        }
+        weak var RememberMsg: UIButton!
+        weak var SwitchbtnMsg: UISwitch!
+        func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
+        
 
 
+}
+}
 }
 
